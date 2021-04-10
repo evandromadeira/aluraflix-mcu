@@ -1,6 +1,6 @@
-var lastOrder = ""
-var multiverse = false
-var movies = []
+var lastOrder = "";
+var multiverse = false;
+var movies = [];
 
 function buildMovie(id, nomeFilme, anoLanc, imagem, anoCron, linkPag, linkTrailer) {
   var movie = {
@@ -22,7 +22,7 @@ movies.push(buildMovie(0,
   "https://m.media-amazon.com/images/M/MV5BMjM2NTQ5Mzc2M15BMl5BanBnXkFtZTgwNTcxMDI2NTE@._V1_UX182_CR0,0,182,268_AL_.jpg",
   2015,
   "https://www.imdb.com/title/tt0478970?ref_=nv_sr_srsg_0",
-  "pWdKf3MneyI"))
+  "pWdKf3MneyI"));
 
 movies.push(buildMovie(1,
   "Ant-Man and the Wasp",
@@ -30,7 +30,7 @@ movies.push(buildMovie(1,
   "https://m.media-amazon.com/images/M/MV5BYjcyYTk0N2YtMzc4ZC00Y2E0LWFkNDgtNjE1MzZmMGE1YjY1XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UX182_CR0,0,182,268_AL_.jpg",
   2017,
   "https://www.imdb.com/title/tt5095030?ref_=nv_sr_srsg_0",
-  "UUkn-enk2RU"))
+  "UUkn-enk2RU"));
 
 movies.push(buildMovie(2,
   "The Incredible Hulk",
@@ -38,7 +38,7 @@ movies.push(buildMovie(2,
   "https://m.media-amazon.com/images/M/MV5BMTUyNzk3MjA1OF5BMl5BanBnXkFtZTcwMTE1Njg2MQ@@._V1_UX182_CR0,0,182,268_AL_.jpg",
   2011,
   "https://www.imdb.com/title/tt0800080/?ref_=nv_sr_srsg_0",
-  "xbqNb2PFKKA"))
+  "xbqNb2PFKKA"));
 
 movies.push(buildMovie(3,
   "Iron Man",
@@ -46,7 +46,7 @@ movies.push(buildMovie(3,
   "https://m.media-amazon.com/images/M/MV5BMTczNTI2ODUwOF5BMl5BanBnXkFtZTcwMTU0NTIzMw@@._V1_UX182_CR0,0,182,268_AL_.jpg",
   2010,
   "https://www.imdb.com/title/tt0371746/?ref_=nv_sr_srsg_0",
-  "8ugaeA-nMTc"))
+  "8ugaeA-nMTc"));
 
 movies.push(buildMovie(4,
   "Iron Man 2",
@@ -54,7 +54,7 @@ movies.push(buildMovie(4,
   "https://m.media-amazon.com/images/M/MV5BMTM0MDgwNjMyMl5BMl5BanBnXkFtZTcwNTg3NzAzMw@@._V1_UX182_CR0,0,182,268_AL_.jpg",
   2011,
   "https://www.imdb.com/title/tt1228705?ref_=nv_sr_srsg_0",
-  "qsRZghNciIo"))
+  "qsRZghNciIo"));
 
 movies.push(buildMovie(5,
   "Iron Man 3",
@@ -62,7 +62,7 @@ movies.push(buildMovie(5,
   "https://m.media-amazon.com/images/M/MV5BMjE5MzcyNjk1M15BMl5BanBnXkFtZTcwMjQ4MjcxOQ@@._V1_UY268_CR3,0,182,268_AL_.jpg",
   2012,
   "https://www.imdb.com/title/tt1300854?ref_=nv_sr_srsg_0",
-  "YLorLVa95Xo"))
+  "YLorLVa95Xo"));
 
 movies.push(buildMovie(6,
   "Thor",
@@ -70,7 +70,7 @@ movies.push(buildMovie(6,
   "https://m.media-amazon.com/images/M/MV5BOGE4NzU1YTAtNzA3Mi00ZTA2LTg2YmYtMDJmMThiMjlkYjg2XkEyXkFqcGdeQXVyNTgzMDMzMTg@._V1_UX182_CR0,0,182,268_AL_.jpg",
   2011,
   "https://www.imdb.com/title/tt0800369?ref_=nv_sr_srsg_6",
-  "JOddp-nlNvQ"))
+  "JOddp-nlNvQ"));
 
 movies.push(buildMovie(7,
   "Thor: The Dark World",
@@ -78,7 +78,7 @@ movies.push(buildMovie(7,
   "https://m.media-amazon.com/images/M/MV5BMTQyNzAwOTUxOF5BMl5BanBnXkFtZTcwMTE0OTc5OQ@@._V1_UY268_CR3,0,182,268_AL_.jpg",
   2013,
   "https://www.imdb.com/title/tt1981115?ref_=nv_sr_srsg_0",
-  "npvJ9FTgZbM"))
+  "npvJ9FTgZbM"));
 
 movies.push(buildMovie(8,
   "Thor: Ragnarok",
@@ -86,7 +86,7 @@ movies.push(buildMovie(8,
   "https://m.media-amazon.com/images/M/MV5BMjMyNDkzMzI1OF5BMl5BanBnXkFtZTgwODcxODg5MjI@._V1_UX182_CR0,0,182,268_AL_.jpg",
   2017,
   "https://www.imdb.com/title/tt3501632?ref_=nv_sr_srsg_0",
-  "v7MGUNV8MxU"))
+  "v7MGUNV8MxU"));
 
 movies.push(buildMovie(9,
   "Captain America: The First Avenger",
@@ -94,7 +94,7 @@ movies.push(buildMovie(9,
   "https://m.media-amazon.com/images/M/MV5BMTYzOTc2NzU3N15BMl5BanBnXkFtZTcwNjY3MDE3NQ@@._V1_UX182_CR0,0,182,268_AL_.jpg",
   1943,
   "https://www.imdb.com/title/tt0458339/?ref_=nv_sr_srsg_0",
-  "JerVrbLldXw"))
+  "JerVrbLldXw"));
 
 movies.push(buildMovie(10,
   "Captain America: The Winter Soldier",
@@ -102,7 +102,7 @@ movies.push(buildMovie(10,
   "https://m.media-amazon.com/images/M/MV5BMzA2NDkwODAwM15BMl5BanBnXkFtZTgwODk5MTgzMTE@._V1_UY268_CR1,0,182,268_AL_.jpg",
   2014,
   "https://www.imdb.com/title/tt1843866?ref_=nv_sr_srsg_3",
-  "tbayiPxkUMM"))
+  "tbayiPxkUMM"));
 
 movies.push(buildMovie(11,
   "Captain America: Civil War",
@@ -110,7 +110,7 @@ movies.push(buildMovie(11,
   "https://m.media-amazon.com/images/M/MV5BMjQ0MTgyNjAxMV5BMl5BanBnXkFtZTgwNjUzMDkyODE@._V1_UX182_CR0,0,182,268_AL_.jpg",
   2016,
   "https://www.imdb.com/title/tt3498820?ref_=nv_sr_srsg_0",
-  "dKrVegVI0Us"))
+  "dKrVegVI0Us"));
 
 movies.push(buildMovie(12,
   "Guardians of the Galaxy",
@@ -118,7 +118,7 @@ movies.push(buildMovie(12,
   "https://m.media-amazon.com/images/M/MV5BMTAwMjU5OTgxNjZeQTJeQWpwZ15BbWU4MDUxNDYxODEx._V1_UX182_CR0,0,182,268_AL_.jpg",
   2014,
   "https://www.imdb.com/title/tt2015381?ref_=nv_sr_srsg_0",
-  "d96cjJhvlMA"))
+  "d96cjJhvlMA"));
 
 movies.push(buildMovie(13,
   "Guardians of the Galaxy 2",
@@ -126,7 +126,7 @@ movies.push(buildMovie(13,
   "https://m.media-amazon.com/images/M/MV5BNjM0NTc0NzItM2FlYS00YzEwLWE0YmUtNTA2ZWIzODc2OTgxXkEyXkFqcGdeQXVyNTgwNzIyNzg@._V1_UX182_CR0,0,182,268_AL_.jpg",
   2014,
   "https://www.imdb.com/title/tt3896198?ref_=nv_sr_srsg_3",
-  "dW1BIid8Osg"))
+  "dW1BIid8Osg"));
 
 movies.push(buildMovie(14,
   "Doctor Strange",
@@ -134,7 +134,7 @@ movies.push(buildMovie(14,
   "https://m.media-amazon.com/images/M/MV5BNjgwNzAzNjk1Nl5BMl5BanBnXkFtZTgwMzQ2NjI1OTE@._V1_UX182_CR0,0,182,268_AL_.jpg",
   2016,
   "https://www.imdb.com/title/tt1211837?ref_=nv_sr_srsg_3",
-  "Lt-U_t2pUHI"))
+  "Lt-U_t2pUHI"));
 
 movies.push(buildMovie(15,
   "Black Panther",
@@ -142,7 +142,7 @@ movies.push(buildMovie(15,
   "https://m.media-amazon.com/images/M/MV5BMTg1MTY2MjYzNV5BMl5BanBnXkFtZTgwMTc4NTMwNDI@._V1_UX182_CR0,0,182,268_AL_.jpg",
   2017,
   "https://www.imdb.com/title/tt1825683?ref_=nv_sr_srsg_0",
-  "dxWvtMOGAhw"))
+  "dxWvtMOGAhw"));
 
 movies.push(buildMovie(16,
   "Captain Marvel",
@@ -150,7 +150,7 @@ movies.push(buildMovie(16,
   "https://m.media-amazon.com/images/M/MV5BMTE0YWFmOTMtYTU2ZS00ZTIxLWE3OTEtYTNiYzBkZjViZThiXkEyXkFqcGdeQXVyODMzMzQ4OTI@._V1_UX182_CR0,0,182,268_AL_.jpg",
   1995,
   "https://www.imdb.com/title/tt4154664?ref_=nv_sr_srsg_0",
-  "Z1BCujX3pw8"))
+  "Z1BCujX3pw8"));
 
 movies.push(buildMovie(17,
   "Spider-Man: Homecoming",
@@ -158,7 +158,7 @@ movies.push(buildMovie(17,
   "https://m.media-amazon.com/images/M/MV5BNTk4ODQ1MzgzNl5BMl5BanBnXkFtZTgwMTMyMzM4MTI@._V1_UX182_CR0,0,182,268_AL_.jpg",
   2016,
   "https://www.imdb.com/title/tt2250912?ref_=nv_sr_srsg_0",
-  "39udgGPyYMg"))
+  "39udgGPyYMg"));
 
 movies.push(buildMovie(18,
   "Spider-Man: Far from Home",
@@ -166,7 +166,7 @@ movies.push(buildMovie(18,
   "https://m.media-amazon.com/images/M/MV5BMGZlNTY1ZWUtYTMzNC00ZjUyLWE0MjQtMTMxN2E3ODYxMWVmXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_UX182_CR0,0,182,268_AL_.jpg",
   2024,
   "https://www.imdb.com/title/tt6320628?ref_=nv_sr_srsg_0",
-  "LFoz8ZJWmPs"))
+  "LFoz8ZJWmPs"));
 
 movies.push(buildMovie(19,
   "The Avengers",
@@ -174,7 +174,7 @@ movies.push(buildMovie(19,
   "https://m.media-amazon.com/images/M/MV5BNDYxNjQyMjAtNTdiOS00NGYwLWFmNTAtNThmYjU5ZGI2YTI1XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UX182_CR0,0,182,268_AL_.jpg",
   2012,
   "https://www.imdb.com/title/tt0848228?ref_=nv_sr_srsg_0",
-  "eOrNdBpGMv8"))
+  "eOrNdBpGMv8"));
 
 movies.push(buildMovie(20,
   "Avengers: Age of Ultron",
@@ -182,7 +182,7 @@ movies.push(buildMovie(20,
   "https://m.media-amazon.com/images/M/MV5BMTM4OGJmNWMtOTM4Ni00NTE3LTg3MDItZmQxYjc4N2JhNmUxXkEyXkFqcGdeQXVyNTgzMDMzMTg@._V1_UX182_CR0,0,182,268_AL_.jpg",
   2015,
   "https://www.imdb.com/title/tt2395427?ref_=nv_sr_srsg_0",
-  "tmeOjFno6Do"))
+  "tmeOjFno6Do"));
 
 movies.push(buildMovie(21,
   "Avengers: Infinity War",
@@ -190,7 +190,7 @@ movies.push(buildMovie(21,
   "https://m.media-amazon.com/images/M/MV5BMjMxNjY2MDU1OV5BMl5BanBnXkFtZTgwNzY1MTUwNTM@._V1_UX182_CR0,0,182,268_AL_.jpg",
   2017,
   "https://www.imdb.com/title/tt4154756?ref_=nv_sr_srsg_0",
-  "6ZfuNTqbHE8"))
+  "6ZfuNTqbHE8"));
 
 movies.push(buildMovie(22,
   "Avengers: End Game",
@@ -198,7 +198,7 @@ movies.push(buildMovie(22,
   "https://m.media-amazon.com/images/M/MV5BMTc5MDE2ODcwNV5BMl5BanBnXkFtZTgwMzI2NzQ2NzM@._V1_UX182_CR0,0,182,268_AL_.jpg",
   2018,
   "https://www.imdb.com/title/tt4154796?ref_=nv_sr_srsg_0",
-  "TcMBFSGVi1c"))
+  "TcMBFSGVi1c"));
 
 movies.push(buildMovie(23,
   "Spider-Man: No Way Home",
@@ -206,39 +206,26 @@ movies.push(buildMovie(23,
   "https://m.media-amazon.com/images/M/MV5BNTMxOGI4OGMtMTgwMy00NmFjLWIyOTUtYjQ0OGQ4Mjk0YjNjXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_UX182_CR0,0,182,268_AL_.jpg",
   2024,
   "https://www.imdb.com/title/tt10872600/?ref_=nv_sr_srsg_0",
-  "pSre_w5I8ZE"))
+  "pSre_w5I8ZE"));
 
-ordenar()
+ordenar();
 
 function ordenar() {
-  var ordem = document.getElementById("ordenarFilmes").value
+  var ordem = document.getElementById("ordenarFilmes").value;
 
-  if (ordem == "anoCronologico") {
-    arraySort(movies, "anoLancamento")
-  }
+  if (ordem == "anoCronologico") { arraySort(movies, "anoLancamento"); }
 
-  arraySort(movies, ordem)
+  arraySort(movies, ordem);
 
-  // console.log(ordem + " - " + lastOrder)
-  // if (ordem == lastOrder) {
-  //   if (multiverse) {
-  //     movies.sort() 
-  //   } else {
-  //     movies.reverse()
-  //   }
-  //   multiverse = !multiverse
-  // }
-  // lastOrder = ordem
-
-  imprime()
+  imprime();
 }
 
 function arraySort(vet, x) {
   vet.sort(function compare(a, b) {
-    return a[x] < b[x] ? -1 : a[x] > b[x] ? 1 : 0
-  })
+    return a[x] < b[x] ? -1 : a[x] > b[x] ? 1 : 0;
+  });
 
-  return vet
+  return vet;
 }
 
 function imprime() {
@@ -380,8 +367,7 @@ function isValidHttpUrl(endereco) {
 
 function tocarSom() {
   var audio = new Audio("https://protettordelinks.com/wp-content/baixar/mario_moeda_efeito_sonoro_toquesengracadosmp3.com.mp3")
-  // var audio = new Audio("https://www.myinstants.com/media/sounds/avengers_assemble_l.mp3")
-  audio.play()
+  audio.play();
 }
 
 function imprimeErro(mensagem) {
